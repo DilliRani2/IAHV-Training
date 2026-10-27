@@ -1,0 +1,135 @@
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ pwd
+/d/IAHV (AI Training)/Unix
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ls
+File1.txt
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ ls -l
+total 1
+-rw-r--r-- 1 Dilli 197121 22 Oct 27 11:58 File1.txt
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ ls -ld
+drwxr-xr-x 1 Dilli 197121 0 Oct 27 11:58 ./
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ whoami
+Dilli
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ who
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cat File1.txt
+hoiii
+
+UNIX training
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cat > File1.txt
+im dilli
+
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cat File1.txt
+im dilli
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cat > File2.txt
+unix trainig
+
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cat File2.tzxt
+cat: File2.tzxt: No such file or directory
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cat File2.txt
+unix trainig
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ mkdir Folder
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ ls
+File1.txt  File2.txt  Folder/
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ ls -l
+total 2
+-rw-r--r-- 1 Dilli 197121 10 Oct 27 12:06 File1.txt
+-rw-r--r-- 1 Dilli 197121 13 Oct 27 12:06 File2.txt
+drwxr-xr-x 1 Dilli 197121  0 Oct 27 12:13 Folder/
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cd Folder
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ cat > file3.txt
+hfhjgsdbfuyehicfnjf
+
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ ls
+file3.txt
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ mkdir sample
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ cat > file4.txt
+sdfnsfbiewfnxmkff
+fmkwexnuikhfj
+wefuixhjhnfnuwji
+eporiquruyenijutukj
+kujtjhfffffffffffffffffffff
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ cat file4.txt
+sdfnsfbiewfnxmkff
+fmkwexnuikhfj
+wefuixhjhnfnuwji
+eporiquruyenijutukj
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ mkdir dummy
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ rmkdir dummy
+bash: rmkdir: command not found
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ rmdir dummy
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ ls
+file3.txt  file4.txt  sample/
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix/Folder (main)
+$ cd ..
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ ls
+File1.txt  File2.txt  Folder/
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cp File1.txt file1cp.txt
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ ls
+File1.txt  File2.txt  Folder/  file1cp.txt
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ cat file1cp.txt
+im dilli
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$ mv file1cp.txt sample/file2copy.txt
+mv: cannot move 'file1cp.txt' to 'sample/file2copy.txt': No such file or directory
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)/Unix (main)
+$
+
