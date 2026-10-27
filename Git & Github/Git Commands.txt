@@ -1,0 +1,161 @@
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training)
+$ git init
+Initialized empty Git repository in D:/IAHV (AI Training)/.git/
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git config --global user.name "DilliRani2"
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git config --global user.email "dillirani0305@gmail.com"
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=Master
+user.name=DilliRani2
+user.email=dillirani0305@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git remote add origin https://github.com/DilliRani2/IAHV-Training.git
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git status
+On branch Master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git add "text.txt"
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git status
+On branch Master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text.txt
+
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git commit -m "Initial commit"
+[Master (root-commit) abd1b44] Initial commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 text.txt
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/DilliRani2/IAHV-Training.git'
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (Master)
+$ git branch -M main
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DilliRani2/IAHV-Training.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    text.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Unix/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git add .
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git branch -M main
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Unix/Unix commands.txt
+        deleted:    text.txt
+
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git commit -m "Unix commands"
+[main 015b9eb] Unix commands
+ 2 files changed, 135 insertions(+), 2 deletions(-)
+ create mode 100644 Unix/Unix commands.txt
+ delete mode 100644 text.txt
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 837 bytes | 418.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DilliRani2/IAHV-Training.git
+   abd1b44..015b9eb  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Dilli@ACER MINGW64 /d/IAHV (AI Training) (main)
+$
